@@ -1,0 +1,16 @@
+$color-menu:#c7a09d;
+$color-links: white;
+$color-titulo:#541C18;
+$color-fondo: #ebe1e1de;
+
+.header,.dropdown-menu, .pie{
+    background-color: $color-menu;
+    
+        a{
+        color: $color-links;
+
+    }
+    
+}
+
+

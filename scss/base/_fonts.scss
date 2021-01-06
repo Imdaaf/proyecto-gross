@@ -1,0 +1,9 @@
+$fuente-principal: 'Montserrat Alternates', sans-serif;
+$fuente-secundaria: 'Raleway', sans-serif;
+
+header{
+    font-family: $fuente-principal;
+}
+.titulo, h2{
+    font-family: $fuente-secundaria;
+}
