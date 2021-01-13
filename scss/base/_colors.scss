@@ -1,9 +1,9 @@
-$color-menu:#c7a09d;
+$color-menu: rgba(80, 78, 78, 0.137);
 $color-links: white;
 $color-titulo:#541C18;
-$color-fondo: #ebe1e1de;
+$color-fondo: rgb(36, 35, 35);
 
-.header,.dropdown-menu, .pie{
+.header .pie{
     background-color: $color-menu;
     
         a{
@@ -13,6 +13,6 @@ $color-fondo: #ebe1e1de;
     
 }
 
-.lista-1{
+.anclas{
     background-color: $color-fondo;
 }

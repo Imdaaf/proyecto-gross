@@ -1,8 +1,12 @@
-.header, .dropdown-menu, .pie {
-  background-color: #c7a09d;
+.header .pie {
+  background-color: rgba(80, 78, 78, 0.137);
 }
-.header a, .dropdown-menu a, .pie a {
+.header .pie a {
   color: white;
+}
+
+.anclas {
+  background-color: #242323;
 }
 
 header {
@@ -18,7 +22,7 @@ header {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width: 100%;
   text-transform: uppercase;
   list-style-type: none;
   border: 10px;
@@ -49,8 +53,7 @@ header .header a {
 footer {
   display: flex;
   justify-content: center;
-  width: 85%;
-  font-size: 50px;
+  width: 100%;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -62,6 +65,9 @@ footer {
   padding: 4px;
   margin-left: auto;
   margin-right: auto;
+}
+footer .derecho {
+  font-size: 12px;
 }
 footer .facebook {
   width: 50px;
@@ -78,7 +84,7 @@ footer .instagram {
 }
 
 body {
-  background-color: #ebe1e1de;
+  background-color: #242323;
   margin-left: auto;
   margin-right: auto;
 }
@@ -198,11 +204,13 @@ p {
   color: #541C18;
   line-height: 1.6;
 }
-h1{
+
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 h2 {
   display: flex;
   justify-content: center;

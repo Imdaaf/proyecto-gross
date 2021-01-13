@@ -9,5 +9,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imdaaf/proyecto-gross.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Imdaaf/proyecto-gross/issues"
+  },
+  "homepage": "https://github.com/Imdaaf/proyecto-gross#readme",
   "description": ""
 }
