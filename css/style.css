@@ -198,11 +198,11 @@ p {
   color: #541C18;
   line-height: 1.6;
 }
-
-h1 {
-  display: none;
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 h2 {
   display: flex;
   justify-content: center;
