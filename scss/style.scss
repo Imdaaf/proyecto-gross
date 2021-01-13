@@ -17,19 +17,6 @@ body{
  /*Mobile devices*/
 @media only screen and (max-width:400px){
      
-    .titulo{
-        font-size: 18px !important;
-    }
-    .lista-programas{
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        align-content: center;
-    }
-    .video2{
-        display: block;
-
-    }
     .facebook, .instagram{
         width: 15px !important;
         height: 15px !important;
@@ -99,27 +86,21 @@ body{
     
     }
 }
-.video{
-    display: block;
-    border:  5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    
-}
+
 /*Fin Principal*/
 
 /*Osvaldo Gross*/
 .osvaldo, .pasteleria, .chocolateria, .novedades{
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
 }
-
+.anclas{
+    text-transform: uppercase;
+}
 p{
     width: 100%;
     font-size: 20px;
@@ -151,20 +132,6 @@ h2{
     animation-name: aparecer;
 }
 
-.lista-programas{
-    display: flex; 
-    flex-direction: column; 
-    text-align: left;
-    font-style: italic;
-    list-style: square;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: $color-titulo;
-    line-height: 1.6;
-    }
-
 img{
     width: 250px;
     height: 210px;      
@@ -189,11 +156,6 @@ img{
 .fotos{
     width:592px;
     height: 333px;
-}
-.carousel-item{
-    position: relative;
-    left: -310px;
-    
 }
 
 
