@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header, .pie {
   background-color: #292727;
 }
@@ -5,7 +6,9 @@
   color: white;
 }
 
-
+.list-group-item {
+  background-color: #666565;
+}
 
 header {
   font-family: "Montserrat Alternates", sans-serif;
@@ -13,6 +16,10 @@ header {
 
 .titulo, h2 {
   font-family: "Raleway", sans-serif;
+}
+
+.anclas {
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 header {
@@ -89,21 +96,6 @@ body {
 
 /*Mobile devices*/
 @media only screen and (max-width: 400px) {
-  .titulo {
-    font-size: 18px !important;
-  }
-
-  .lista-programas {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    align-content: center;
-  }
-
-  .video2 {
-    display: block;
-  }
-
   .facebook, .instagram {
     width: 15px !important;
     height: 15px !important;
@@ -172,24 +164,20 @@ body {
     opacity: 1;
   }
 }
-.video {
-  display: block;
-  border: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
-}
-
 /*Fin Principal*/
 /*Osvaldo Gross*/
 .osvaldo, .pasteleria, .chocolateria, .novedades {
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+.list-group-item {
+  background-color: #666565;
+  text-transform: uppercase;
 }
 
 p {
@@ -227,16 +215,14 @@ h2 {
 
 .lista-programas {
   display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-style: italic;
-  list-style: square;
-  font-size: 20px;
+  justify-content: center;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Montserrat Alternates", sans-serif;
-  color: white;
-  line-height: 1.6;
+}
+
+.año {
+  text-align: center;
 }
 
 img {
@@ -249,7 +235,7 @@ img {
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  border: 7px solid #c7a09d;
+  border: 3px solid white;
   border-radius: 5px;
   width: 30%;
   height: 30%;
@@ -266,9 +252,9 @@ img {
   height: 333px;
 }
 
-.carousel-item {
-  position: relative;
-  left: -310px;
+.rounded-circle {
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 /*Fin Osvaldo Gross*/
@@ -283,7 +269,7 @@ img {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  border: 7px solid #c7a09d;
+  border: 3px solid white;
   border-radius: 5px;
 }
 

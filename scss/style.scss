@@ -87,6 +87,7 @@ body{
     }
 }
 
+
 /*Fin Principal*/
 
 /*Osvaldo Gross*/
@@ -133,6 +134,13 @@ h2{
     animation-duration: 3s;
     animation-name: aparecer;
 }
+.lista-programas{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 img{
     width: 250px;
@@ -144,7 +152,7 @@ img{
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    border: 7px solid #c7a09d;
+    border: 3px solid white;
     border-radius: 5px;
     width: 30%;
     height: 30%;
@@ -158,6 +166,10 @@ img{
 .fotos{
     width:592px;
     height: 333px;
+}
+.rounded-circle{
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
 
@@ -173,7 +185,7 @@ img{
     display: inline;    
     margin-left: auto;
     margin-right: auto;
-    border: 7px solid #c7a09d;
+    border: 3px solid white;
     border-radius: 5px;
 }
 .Pics:hover{
