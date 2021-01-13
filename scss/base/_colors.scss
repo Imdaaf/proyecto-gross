@@ -1,9 +1,9 @@
-$color-menu: rgba(80, 78, 78, 0.137);
+$color-menu: rgb(41, 39, 39);
 $color-links: white;
-$color-titulo:#541C18;
-$color-fondo: rgb(36, 35, 35);
+$color-titulo: white;
+$color-fondo: rgb(102, 101, 101);
 
-.header .pie{
+.header, .pie{
     background-color: $color-menu;
     
         a{
