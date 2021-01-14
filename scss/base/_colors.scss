@@ -14,5 +14,12 @@ $color-fondo: rgb(102, 101, 101);
 }
 
 .list-group-item{
-    background-color: $color-fondo;
+    background-color: $color-menu;
+    a{
+        color: $color-links;
+    }
+}
+
+h1 h2 h3{
+    color: $color-titulo;
 }

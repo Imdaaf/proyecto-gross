@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .header, .pie {
   background-color: #292727;
 }
@@ -7,7 +6,14 @@
 }
 
 .list-group-item {
-  background-color: #666565;
+  background-color: #292727;
+}
+.list-group-item a {
+  color: white;
+}
+
+h1 h2 h3 {
+  color: white;
 }
 
 header {
@@ -67,12 +73,12 @@ footer {
   border: 2px #7D5A52;
   border-style: none;
   border-radius: 3px;
-  padding: 4px;
   margin-left: auto;
   margin-right: auto;
 }
 footer .derecho {
   font-size: 12px;
+  text-align: end;
 }
 footer .facebook {
   width: 50px;
@@ -176,8 +182,12 @@ body {
 }
 
 .list-group-item {
-  background-color: #666565;
+  display: flex;
+  justify-content: center;
+  flex: 1;
   text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
 }
 
 p {
@@ -195,6 +205,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 h2 {
@@ -208,7 +221,6 @@ h2 {
   padding-bottom: 10px;
   text-align: left;
   text-transform: uppercase;
-  color: white;
   animation-duration: 3s;
   animation-name: aparecer;
 }
@@ -219,10 +231,6 @@ h2 {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.año {
-  text-align: center;
 }
 
 img {
@@ -294,7 +302,6 @@ h3 {
   padding-bottom: 10px;
   text-align: left;
   text-transform: uppercase;
-  color: white;
 }
 
 .notas {
@@ -326,13 +333,12 @@ h5 {
   font-family: "Montserrat Alternates", sans-serif;
   margin-top: 0.5%;
   margin-bottom: 0.5%;
-  color: #6E4441;
 }
 
 .sucursal {
   width: 350px;
   height: auto;
-  border: 3px dashed #c7a09d;
+  border: 3px dashed white;
   border-radius: 5px;
 }
 
