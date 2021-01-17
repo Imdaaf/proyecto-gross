@@ -96,15 +96,13 @@ footer .instagram {
 
 body {
   background-color: #666565;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*Mobile devices*/
 @media only screen and (max-width: 400px) {
   .facebook, .instagram {
-    width: 15px !important;
-    height: 15px !important;
+    width: 20px !important;
+    height: 20px !important;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -119,31 +117,50 @@ body {
     right: 40px;
   }
 }
-.contenedor {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .Pics {
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
 /*Fin mobile devices*/
-/*Desktop*/
-@media only screen and (min-width: 1200px) {
-  .facebook {
+/*Tablet*/
+@media only screen and (min-width:401px) and (max-width: 1200px) {
+  .facebook, .instagram {
+    width: 30px !important;
+    height: 30px !important;
     display: flex;
+    flex-direction: row;
     position: fixed;
-    right: 35px;
-    bottom: 300px;
+    top: 31px;
+    right: 80px;
   }
 
   .instagram {
     display: flex;
     position: fixed;
-    right: 35px;
-    bottom: 220px;
+    top: 3px;
+    right: 30px;
+  }
+}
+/*Fin tablet*/
+/*Desktop*/
+@media only screen and (min-width: 1300px) {
+  .facebook {
+    display: flex;
+    position: fixed;
+    right: 170px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .instagram {
+    display: flex;
+    position: fixed;
+    right: 120px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
 /*Fin desktop*/
@@ -233,11 +250,6 @@ h2 {
   margin-right: auto;
 }
 
-img {
-  width: 250px;
-  height: 210px;
-}
-
 .foto {
   display: flex;
   justify-content: center;
@@ -253,11 +265,6 @@ img {
   width: 35%;
   height: 35%;
   transition: height 2s, width 1s;
-}
-
-.fotos {
-  width: 592px;
-  height: 333px;
 }
 
 .rounded-circle {
@@ -279,6 +286,8 @@ img {
   margin-right: auto;
   border: 3px solid white;
   border-radius: 5px;
+  width: 250px;
+  height: 210px;
 }
 
 .Pics:hover {
@@ -326,7 +335,7 @@ h5 {
 
 /*Fin Novedades*/
 /*Sucursales*/
-.domicilio, div {
+.domicilio, .datos {
   display: flex;
   justify-content: center;
   font-size: 18px;
