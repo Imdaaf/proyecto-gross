@@ -14,7 +14,7 @@ body{
  
 }
  /*Mobile devices*/
-@media only screen and (max-width:400px){
+@media only screen and (min-width:200px) and (max-width:500px){
      
     .facebook, .instagram{
         width: 15px !important;
@@ -22,16 +22,11 @@ body{
         display: flex;
         flex-direction: row;
         position: fixed;
-        top: 6px;
-        right: 60px;
+        left: 500px;
+        top:3px;
+        
     }
-        .instagram{
-        display: flex;
-        position: fixed;
-        top: 6px;
-        right: 40px;
-    }
-  
+     
 }
 
 .Pics{
@@ -45,16 +40,12 @@ body{
 /*Desktop*/
 @media only screen and (min-width:1200px){
     .facebook {
-        display: flex; 
-        position: fixed;  
-        right: 80px;
-        top: 20px;
+        right: 10px;
+        top: 3px;
     }
-    .instagram{
-        display: flex; 
-        position: fixed;  
-        right: 50px;
-        top:20px;
+    .instagram{ 
+        right: 2px;
+        top:3px;
     }
 }
 
@@ -91,8 +82,6 @@ body{
     display: flex;
     align-items: center;
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
 }
 .list-group-item {
@@ -109,7 +98,6 @@ p{
     font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: normal;
-    text-align: justify;
     padding: 4px;
     color: $color-titulo;
     line-height: 1.6;
@@ -140,25 +128,18 @@ h2{
     display: flex;
     justify-content: center;
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 .foto{
     display: flex;;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
     border: 3px solid white;
     border-radius: 5px;
     width: 30%;
     height: 30%;
 }
-.foto:hover{
-    width: 35%;
-    height: 35%;
-    transition: height 2s, width 1s;
-}
+
 
 
 .rounded-circle{
