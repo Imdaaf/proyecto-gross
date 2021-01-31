@@ -108,23 +108,18 @@ body {
   background-color: #666565;
 }
 
-/*Mobile devices*/
-@media only screen and (min-width: 200px) and (max-width: 500px) {
-  .facebook, .instagram {
-    width: 15px !important;
-    height: 15px !important;
+/*Smaller devices*/
+@media only screen and (max-width: 999px) {
+  .rrss {
     display: flex;
-    flex-direction: row;
-    position: fixed;
-    left: 500px;
-    top: 3px;
+    flex-direction: row !important;
+  }
+
+  .Pics {
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
 }
-.Pics {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
 /*Fin mobile devices*/
 /*Desktop*/
 @media only screen and (min-width: 1200px) {
