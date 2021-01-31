@@ -28,6 +28,10 @@ header {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
+.enlace {
+  text-transform: uppercase;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -118,6 +122,10 @@ body {
   .Pics {
     margin-top: 4px;
     margin-bottom: 4px;
+  }
+
+  .card-body {
+    display: none;
   }
 }
 /*Fin mobile devices*/
@@ -271,21 +279,28 @@ h3 {
 }
 
 .notas {
-  display: flex;
-  justify-content: left;
   text-decoration: none;
-  color: #dd726b;
-  font-size: 18px;
+  color: #505050;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #505050;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
 }
 
 .notas:visited {
-  color: #dd726b;
+  color: #000000;
+}
+
+.enlace:hover {
+  color: #ea00ff;
 }
 
 h5 {
-  font-size: 20px;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
 }
