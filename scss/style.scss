@@ -147,9 +147,7 @@ h2{
 /*Fin Osvaldo Gross*/
 
 /*Pasteleria y Chocolateria*/
-.contenedor{
-   align-content: center;
-}
+
 .Pics {
     display: inline;    
     margin-left: auto;
@@ -209,6 +207,7 @@ h5{
 
 /*Fin Novedades*/
 /*Sucursales*/
+
 .domicilio, .datos{
     display: flex;
     justify-content: center;
@@ -219,10 +218,13 @@ h5{
     
 }
 .sucursal{
+    display: flex;;
+    justify-content: center;
     width: 350px;
     height: auto;
     border: 3px dashed white;
     border-radius: 5px;
+    
 }
 .sucursal:hover{
     width: 30%;
