@@ -225,8 +225,6 @@ h2 {
 /*Fin Osvaldo Gross*/
 /*Pasteleria y Chocolateria*/
 .contenedor {
-  display: flex;
-  flex-direction: row;
   align-content: center;
 }
 
