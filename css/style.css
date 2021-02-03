@@ -47,6 +47,10 @@ header .header a {
   text-decoration: none;
   padding: 10px;
 }
+header .menu:hover {
+  font-size: 21px;
+  transition: all 0.5s;
+}
 
 .logo {
   width: 110px;
@@ -112,6 +116,11 @@ body {
 }
 /*Fin desktop*/
 /*Principal*/
+.anclas:hover {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
 .titulo {
   display: flex;
   justify-content: center;
@@ -267,6 +276,7 @@ h3 {
 
 .enlace:hover {
   color: #ea00ff;
+  text-decoration: none;
 }
 
 h5 {
