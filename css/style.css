@@ -54,13 +54,13 @@ header .header a {
 }
 
 .facebook {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 .instagram {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 footer {
@@ -86,7 +86,7 @@ body {
 }
 
 /*Smaller devices*/
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1199px) {
   .rrss {
     display: flex;
     flex-direction: row !important;
@@ -95,10 +95,6 @@ body {
   .Pics {
     margin-top: 4px;
     margin-bottom: 4px;
-  }
-
-  .card-body {
-    display: none;
   }
 }
 /*Fin mobile devices*/
@@ -110,7 +106,7 @@ body {
   }
 
   .instagram {
-    right: 2px;
+    right: 10px;
     top: 3px;
   }
 }
@@ -191,8 +187,6 @@ h2 {
 }
 
 .lista-programas {
-  display: flex;
-  justify-content: center;
   width: 85%;
 }
 
@@ -250,6 +244,14 @@ h3 {
   color: #505050;
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
+}
+
+.media {
+  width: 85%;
+}
+.media img {
+  width: 215px;
+  height: 250px;
 }
 
 .enlace {

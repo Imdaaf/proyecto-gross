@@ -14,7 +14,7 @@ body{
  
 }
  /*Smaller devices*/
-@media only screen and (max-width:999px){
+@media only screen and (max-width:1199px){
      
 .rrss{
         display: flex;
@@ -26,9 +26,7 @@ body{
     margin-top: 4px;
     margin-bottom: 4px;
 }
-.card-body{
-    display: none;
-}
+
 }
  /*Fin mobile devices*/
 
@@ -38,9 +36,9 @@ body{
     .facebook {
         right: 10px;
         top: 3px;
-    }
+        }
     .instagram{ 
-        right: 2px;
+        right: 10px;
         top:3px;
     }
 }
@@ -120,8 +118,6 @@ h2{
     animation-name: aparecer;
 }
 .lista-programas{
-    display: flex;
-    justify-content: center;
     width: 85%;
    
 }
@@ -185,6 +181,13 @@ h3 {
     color:#505050;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+}
+.media{
+    width: 85%;
+    img{
+        width: 215px;
+        height: 250px;
+    }
 }
 .enlace{
     text-decoration: none;
