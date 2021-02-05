@@ -2,13 +2,13 @@ footer{
     width: 100%;
     height: 100%;
     height: auto;
-    font-family: $fuente-principal;
     font-weight: bold;
     text-transform: uppercase;
     
     .derecho{
-        font-size: 12px;
-        text-align: end;
+        display: inline;
+        font-size: 18px;
+        text-align: center;
     }
   
 

@@ -1,17 +1,32 @@
-$fuente-principal: 'Montserrat Alternates', sans-serif;
-$fuente-secundaria: 'Raleway', sans-serif;
+$fuente-logo: 'Permanent Marker', cursive;
+$fuente-secundaria: 'Shadows Into Light', cursive;
+$fuente-primaria: 'Advent Pro', sans-serif;
 
 header{
-    font-family: $fuente-principal;
+    font-family: $fuente-primaria;
 }
 
-.titulo, h2{
-    font-family: $fuente-secundaria;
+.titulo, h1{
+    font-family: $fuente-logo;
 }
 .anclas{
-    font-family: $fuente-principal;
+    font-family: $fuente-primaria;
 
 }
+.derecho{
+    font-family: $fuente-primaria;
+}
 .enlace{
-    text-transform: uppercase;
+    font-family: $fuente-primaria;
+    
+}
+
+.logo {
+    font-family: $fuente-logo ;
+}
+h2, p, .formulario-contacto{
+    font-family: $fuente-primaria;
+}
+.datos{
+    font-family: $fuente-primaria;
 }
