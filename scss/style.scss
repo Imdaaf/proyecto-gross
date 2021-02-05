@@ -3,7 +3,32 @@
 @import 'components/header';
 @import 'components/footer';
 
-
+/*Smaller devices*/
+@media only screen and (max-width:1199px){
+     
+    .rrss{
+            display: flex;
+            flex-direction: row !important;
+            
+        }
+    }
+     /*Fin smaller devices*/
+    
+    
+    /*Desktop*/
+    @media only screen and (min-width:1200px){
+        .facebook {
+            right: 10px;
+            top: 3px;
+            }
+        .instagram{ 
+            right: 10px;
+            top:3px;
+        }
+    }
+    
+    /*Fin desktop*/
+    
 
 *{
     margin:0;
@@ -13,46 +38,9 @@ body{
     background-color: $color-fondo;
  
 }
- /*Smaller devices*/
-@media only screen and (max-width:1199px){
-     
-.rrss{
-        display: flex;
-        flex-direction: row !important;
-        
-    }
-    
+ 
+/*Index*/
 
-}
- /*Fin mobile devices*/
-
-
-/*Desktop*/
-@media only screen and (min-width:1200px){
-    .facebook {
-        right: 10px;
-        top: 3px;
-        }
-    .instagram{ 
-        right: 10px;
-        top:3px;
-    }
-}
-
-/*Fin desktop*/
-
-/*Principal*/
-.logo{
-    font-size: 30px;
-    
-}
-.anclas{
-    font-size: 20px;
-    text-transform: uppercase;
-}
-.anclas:hover{
-    color:  #1F2833;
-  }
 
 @keyframes aparecer{
     0%{
@@ -63,9 +51,17 @@ body{
     
     }
 }
-/*Fin Principal*/
+/*Fin Index*/
 
 /*Osvaldo Gross*/
+
+.anclas{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.anclas:hover{
+    color:  #1F2833;
+  }
 
 .list-group-item {
     display: flex;
