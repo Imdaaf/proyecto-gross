@@ -187,7 +187,7 @@ h1 {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
   color: #1F2833;
   animation-duration: 1s;
@@ -221,7 +221,7 @@ p {
   width: 100%;
   font-size: 22px;
   font-weight: normal;
-  padding: 4px;
+  padding: 3px;
   color: #1F2833;
   line-height: 1.6;
 }
@@ -242,6 +242,8 @@ p {
 /*Fin Osvaldo Gross*/
 /*Pasteleria y Chocolateria*/
 .pics1 {
+  display: flex;
+  justify-content: center;
   border-radius: 3px;
   width: 520px;
   height: 319px;
@@ -249,11 +251,17 @@ p {
 }
 
 .pics2 {
+  display: flex;
+  justify-content: center;
   border-radius: 3px;
-  width: 550px;
-  height: 462px;
+  width: 520px;
+  height: 319px;
   margin: 15px;
   padding: 2px;
+}
+
+.tachado {
+  text-decoration: line-through;
 }
 
 /*Fin Pasteleria y Chocolateria*/
