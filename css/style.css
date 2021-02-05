@@ -12,7 +12,7 @@
   color: white;
 }
 .list-group-item a:hover {
-  color: #45A29E;
+  color: #5cf5ed;
 }
 
 h1 h2 h3 {
@@ -306,7 +306,7 @@ h3 {
 }
 
 .enlace:hover {
-  color: #45A29E;
+  color: #5cf5ed;
   text-decoration: none;
 }
 
